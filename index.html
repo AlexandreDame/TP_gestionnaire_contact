@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>TP GESTIONNAIRE CONTACT JS</title>
+</head>
+<body>
+<section>
+    <form>
+        <h2>Gestionnaire de Contacts</h2>
+    	<label for="lastName">Nom du contact : </label>
+    		<input type="text" name="name" id="Name" placeholder="Votre nom" required/>
+		<label for="firstName">Prénom du contact :</label> 
+			<input type="text" name="firstName" id="firstName" placeholder="Votre prénom" required/>
+		<label for="phone">Telephone : </label>
+			<input type="text" name="phone" id="phone" placeholder="Votre telephone" required/>
+	   <div class="center">	
+            <button id="button" type="submit" value="Envoyer">Ajouter Contact</button>
+            <div id="message"></div>
+       </div>
+	</form>
+</section>
+	<div>
+        <h2>Listing des contacts</h2>
+        <div id="liste"></div>
+	</div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
